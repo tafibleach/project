@@ -1,0 +1,64 @@
+body{
+padding-top:40px;
+}
+
+.carousel-caption{
+top: 50%;
+transform:translateY(-50%);
+text-transform:uppercase;
+}
+
+.navbar{
+margin-bottom:0;
+border-radius:0;
+background-color: #4da6ff;
+color:#FFF;
+padding:1% 0;
+font-size:1.2em;
+border:0;
+}
+ 
+.nabvar-brand{
+float:left;
+min-height:55px;
+padding:0 15px 5px;
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+footer{
+width:100%;
+padding:2%;
+color:#FFF;
+background-color:Blue;
+} 
+
+.fa{
+padding:20px;
+font-size:40px;
+color:#FFF;
+}
+
+.fa:hover{
+color:#D5D5D5;
+text-decoration:none;
+}
+
+@media (max-width:600px) {
+.carousel-caption{
+display:none;
+}
+@media (max-width:900px) 
+.fa{
+font-size: 20px;
+padding:10px;
+}
